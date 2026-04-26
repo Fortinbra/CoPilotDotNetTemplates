@@ -11,6 +11,7 @@ This repository contains shared Copilot instructions that apply to any .NET proj
 - Treat tests as **first-class citizens**: write them before or alongside production code, and keep them as clean as the code they cover.
 - Follow Microsoft's official .NET and C# guidelines unless a project's local instructions explicitly override them.
 - Prefer the **latest stable .NET LTS version** and idiomatic modern C# features (nullable reference types, records, pattern matching, file-scoped namespaces, primary constructors, etc.).
+- If asked to implement something that **contradicts these guidelines**, ask clarifying questions before proceeding and suggest alternative approaches that remain compliant. Do not silently implement a guideline violation.
 
 ---
 

@@ -36,6 +36,7 @@ To use these templates in a .NET project, copy or reference the relevant instruc
 - **Never commit secrets, connection strings, or personal data** to the repository.
 - **Keep changes focused and minimal** — address only the described issue; avoid unrelated refactoring in the same change set.
 - When uncertain about the intended design, **ask a clarifying question** rather than making an assumption that could introduce architectural inconsistency.
+- If asked to implement anything that **contradicts these guidelines**, ask clarifying questions before proceeding and suggest compliant alternative approaches. Do not silently implement a guideline violation.
 - **Validate changes** by running the project's existing test suite; do not skip tests.
 
 ---
